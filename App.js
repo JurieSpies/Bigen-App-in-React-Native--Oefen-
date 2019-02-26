@@ -29,15 +29,14 @@ export default class App extends Component<Props> {
         />
 
         <Button
-          containerViewStyle={{width: '100%', marginLeft: 0}}
-          color="blue"
-          title="Sign Up"
+          color = "green"
+          title = "Sign Up"
+          marginBottom = "10"
         />
 
         <Button
           color="blue"
           title="Already a Member ?"
-          containerViewStyle={{width: '100%', marginLeft: 0}}
         />
 
       </View>
@@ -49,8 +48,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    // alignItems: 'center',
+    backgroundColor: "white",
   },
   welcome: {
     fontSize: 20,
